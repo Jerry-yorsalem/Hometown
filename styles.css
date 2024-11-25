@@ -1,0 +1,153 @@
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #1d3557;
+  line-height: 25px;
+}
+
+img {
+  width: 100px;
+}
+
+.hero {
+  color: #ffffff;
+  height: 400px;
+  background-image: url(tigray_ethiopia_13888645811-scaled.jpg);
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4%;
+}
+
+h3 {
+  margin-top: 0;
+  padding-bottom: 20px;
+}
+#title {
+  background: #1d3557;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 0 0 0;
+  margin-top: 80px;
+}
+#intro {
+  background: #457b9d;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px 0 10px 0;
+  width: 800px;
+  line-height: 35px;
+}
+
+#images {
+  width: 930px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.activity img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.activity {
+  width: 250px;
+  font-weight: 500;
+}
+
+#activities {
+  background-color: #aae1c0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+.avatar {
+  width: 150px;
+}
+
+.card {
+  width: 450px;
+  margin: 80px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background: #a8dadc;
+  color: #2b2839;
+  border-bottom: 6px solid #1d3557;
+  border-radius: 10px;
+}
+.border-blue {
+  border: 1px dotted #1d3557;
+}
+
+.card img {
+  object-fit: cover;
+  width: 200px;
+  border-radius: 10px;
+  height: 300px;
+}
+.business-card-text {
+  width: 250px;
+  margin-left: 20px;
+}
+
+#AbunaYemataGuh {
+  background: #1d3557;
+  border-radius: 5px;
+  padding: 5px;
+}
+.menu-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.menu-button {
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropdown-menu {
+  display: none; 
+  position: absolute;
+  top: 100%; 
+  right: 0; 
+  background-color: #ffffff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  width: 150px;
+  z-index: 1000;
+}
+
+.dropdown-menu a {
+  text-decoration: none;
+  color: #1d3557;
+  padding: 10px;
+  display: block;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
